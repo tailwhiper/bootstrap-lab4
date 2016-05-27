@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+    <link rel="stylesheet" href="css/servers.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <title>Nikita Servers</title>
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <div class="svg-container responsive">
+                    <object type="image/svg+xml" text-align="center" data="img/elephant-republican-symbol.svg"
+                            height="30vh"
+                            width="30vh"
+                            class="svg-content">
+                    </object>
+                </div>
+            </a>
+            <a class="navbar-brand" href="#">Elephant technologies</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Application servers</a></li>
+                <li><a href="#">Data servers</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Ip adress">
+                </div>
+                <button type="submit" class="btn btn-default">Find</button>
+            </form>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div id="server1" class="container-fluid">
+    <div class="panel">
+        <div class="panel-heading">
+            <h1>Data aggregation server 1</h1>
+            <ul class="pagination">
+                <li class="active"><a href="#section1">Diagnostics</a></li>
+                <li><a href="#section2">Hardware</a></li>
+                <li><a href="#section3">Remote</a></li>
+            </ul>
+        </div>
+        <div class="panel-body">
+
+            <div class="col-sm-6 col-md-4 col-lg-4">
+
+                <h2>IP : 192.465.135.269</h2>
+                <h4>Uptime : 300 days 15 hours</h4>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70"
+                         aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                        CPU Load : 70%
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
+                         aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                        Network load : 40%
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
+                         aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                        RAID load : 90%
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-6 col-md-4 col-lg-4 text-center">
+                <div class="well">
+                    <h4>Software update</h4>
+                    <p>Wait for a while. Update will be completed soon</p>
+
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped active" role="progressbar"
+                             aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                            40%
+                        </div>
+                    </div>
+                    <p class="text-danger">Interrupting may cause a lot of problems.</p>
+                    <button type="button" class="btn btn-danger">Abort</button>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 text-center">
+                <div class="well">
+                    <h4><abbr title="Redundant Array of Independent Disks">RAID</abbr> storage information</h4>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:30%">
+                            Ok
+                        </div>
+                        <div class="progress-bar progress-bar-warning" role="progressbar" style="width:40%">
+                            Fragmented
+                        </div>
+                        <div class="progress-bar progress-bar-danger" role="progressbar" style="width:20%">
+                            Broken
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:20%">
+                            Ok
+                        </div>
+                        <div class="progress-bar progress-bar-warning" role="progressbar" style="width:20%">
+                            Fragmented
+                        </div>
+                        <div class="progress-bar progress-bar-danger" role="progressbar" style="width:5%">
+                            Broken
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" style="width:20%">
+                            Ok
+                        </div>
+                        <div class="progress-bar progress-bar-warning" role="progressbar" style="width:20%">
+                            Fragmented
+                        </div>
+                        <div class="progress-bar progress-bar-danger" role="progressbar" style="width:5%">
+                            Broken
+                        </div>
+                        <p></p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="well">
+                        <div class="svg-container responsive">
+                            <object type="image/svg+xml" data="img/chart.svg" width="100%" height="100%">
+                            </object>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="well">
+                        <div class="svg-container responsive">
+                            <object type="image/svg+xml" data="img/chart 2.svg" width="100%" height="100%">
+                            </object>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="lg-box small-box col col-sm-6 col-md-3 col-lg-3">
+                    <div class=" well text-center ">
+                        <h3 class="text-primary"><i class="fa fa-plus-circle" aria-hidden="true"></i></i> Security
+                            update
+                        </h3>
+                        <button type="button" class="btn btn-primary">Start</button>
+                    </div>
+                </div>
+                <div class="lg-box small-box col col-sm-6 col-md-3 col-lg-3">
+                    <div class=" well text-center ">
+                        <h3 class="text-info">Popular browsers:</h3>
+                        <h3 class="text-info"><i class="fa fa-chrome" aria-hidden="true"></i></i> 75.3% : <i
+                                class="fa fa-safari" aria-hidden="true"></i> 20.1%</h3>
+                    </div>
+                </div>
+                <div class="lg-box small-box  col col-sm-6 col-md-3 col-lg-3">
+                    <div class="well text-center ">
+                        <h3 class="text-warning"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Memory
+                            leak
+                        </h3>
+                        <button type="button" class="btn btn-warning">Fix me!</button>
+                    </div>
+                </div>
+                <div class="lg-box small-box  col col-sm-6 col-md-3 col-lg-3">
+                    <div class="  well text-center ">
+                        <h3>Transactions / hour</h3>
+                        <h3 class="text-success"><i class="fa fa-exchange" aria-hidden="true"></i> 4000000</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <ul class="nav navbar-nav text-center">
+            <li>
+                <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> Call us</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Feedback</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-users" aria-hidden="true"></i> Partners</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
